@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+}
+
+
+header{
+    background-color: green;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    align-items: center;
+}
+
+footer{
+    background-color: grey;
+}
+footer ul{
+    margin-top: 2rem;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+
+@media screen and (max-width: 600px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
